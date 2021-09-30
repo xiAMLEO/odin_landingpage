@@ -82,6 +82,8 @@ ul{
     border: none;
 }
 
+/* Info part */
+
 .info{
     display: flex;
     background-color: white;
@@ -118,7 +120,10 @@ ul{
     display: flex;
     flex-direction: column;
     text-align: center;
+    flex-wrap: wrap;
 }
+
+/* Quote part */
 
 .quote{
     background-color: #E5E7EB;
@@ -141,4 +146,54 @@ ul{
     margin-top: 10px;
     font-weight: bold;
     align-self: flex-end;
+}
+
+/* Action part */
+
+.action{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    padding: 0 100px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    background: #3882F6;
+    width: 60%;
+    height: 30%;
+    border-radius: 8px;
+    padding: 10px 50px;
+}
+
+.box .button{
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    border: 2px solid white;
+}
+
+.action-head{
+    font-size: 18px;
+    font-weight: bold;
+    color: white; 
+}
+
+.action-txt{
+    color: white;
+    font-weight: 400;
+}
+
+/* Footer */
+
+.footer{
+    color: #F9FAF8;
+    text-align: center;
+    padding: 30px;
+    background-color: #1F2937;
 }
